@@ -14,6 +14,7 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # https://www.jetbrains.com/help/pycharm/에서 PyCharm 도움말 참조
-x = input()
-y = input()
+x = int(input('첫번째 인자를 입력하세요: '))
+y = int(input('두번째 인자를 입력하세요: '))
 print(f'{x} + {y} = {x + y}')
+print('프로그램을 종료합니다!')
