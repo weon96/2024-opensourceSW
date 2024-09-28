@@ -14,21 +14,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # https://www.jetbrains.com/help/pycharm/에서 PyCharm 도움말 참조
-fruits = {
-    '사과': 1000,
-    '바나나': 2000,
-    '자두': 500,
-    '복숭아': 4000,
-}
-while true:
-    fruit_name = input("어서옵쇼~ 어떤 과일을 찾으세요?: ")
-
-if fruit_name.lower() == 'exit':
-    print("프로그램을 종료합니다.")
-    break
-
-# 가격 출력
-if fruit_name in fruits:
-    print( f"아! {fruit_name}는 {fruits[fruit_name]}원입죠~ ")
-    else:
-    print(f"아이고~ {fruit_name} 는 매장에 없네요.")
+x = input()
+y = input()
+print(f'{x} + {y} = {x + y}')
